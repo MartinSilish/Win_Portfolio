@@ -94,3 +94,22 @@ ul.social-icons{
 .social-icons li a > i.fa-instagram:hover{
     color: #962fbf;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+    header{
+        flex-direction: column;        
+    }
+    
+    header > *{
+        margin-bottom: 10px;
+    }
+
+    /* hero section */
+    section.hero-section{
+        flex-direction: column;
+        padding: 40px;
+        padding-top: 120px;
+    }
+}
